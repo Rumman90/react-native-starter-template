@@ -1,0 +1,30 @@
+
+# Node modules
+/node_modules
+
+# Android
+/android
+*.keystore
+
+# iOS
+/ios/build
+/ios/Pods
+*.xcworkspace
+*.xcuserdatad
+
+# Metro bundler
+.expo
+.expo-shared
+
+# Builds
+/build
+/dist
+
+# Env
+.env
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
