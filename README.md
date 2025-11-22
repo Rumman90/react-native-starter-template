@@ -1,6 +1,6 @@
 # React Native Starter Template
 
-A simple, clean, beginner-friendly React Native starter template — perfect for GitHub.
+A simple, clean, beginner-friendly React Native starter template.
 
 ## Features
 - React Native + TypeScript
