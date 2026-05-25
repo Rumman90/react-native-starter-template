@@ -2,15 +2,20 @@
 
 A simple, clean, beginner-friendly React Native starter template.
 
-## Features
-- React Native + TypeScript
-- Clean folder structure
-- Pre-configured navigation (react-navigation)
-- Reusable components
-- Theming support
-- Ready for production
+It is intentionally light: one screen, one navigator, a shared screen wrapper, and a small theme file. The idea is to give you a clean starting point without locking the app into a larger architecture too early.
+
+## What's Included
+
+- Expo 51 and React Native 0.74.5
+- TypeScript with strict mode enabled
+- React Navigation with a native stack navigator
+- A root Expo entrypoint in `index.ts`
+- A reusable `Screen` wrapper for safe-area layout
+- Basic theme tokens for colors, spacing, and type sizes
+- A `typecheck` script wired into `npm test`
 
 ## Folder Structure
+
 ```
 src/
  ├─ components/
@@ -20,20 +25,35 @@ src/
  └─ App.tsx
 ```
 
-## ▶How to Run
+## Requirements
+
+- Node.js 18.17 or newer
+- npm
+
+## Getting Started
+
 ```bash
 npm install
 npm start
-# or
-npx react-native run-android
-npx react-native run-ios
 ```
 
-## Included Packages
-- react-native
-- react-navigation
-- @react-navigation/native-stack
-- TypeScript
-- Prettier + ESLint (optional)
+Then open the app in Expo Go, an iOS simulator, or an Android emulator.
 
-Enjoy building your app!
+You can also launch a platform directly:
+
+```bash
+npm run ios
+npm run android
+```
+
+## Validation
+
+```bash
+npm test
+```
+
+The test command currently runs TypeScript validation. Add unit, component, or end-to-end tests as the template grows.
+
+## License
+
+MIT
