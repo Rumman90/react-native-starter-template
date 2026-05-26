@@ -56,4 +56,4 @@ The test command currently runs TypeScript validation. Add unit, component, or e
 
 ## License
 
-MIT
+This project is licensed under the [MIT License](LICENSE).
